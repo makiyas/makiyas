@@ -94,7 +94,7 @@ app.use(notFound);
 app.use(errorHandler);
 const server = http.createServer(app);
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 const io = require("socket.io")(server, {
   cors: {
@@ -106,7 +106,10 @@ const io = require("socket.io")(server, {
         "https://admins.goldstitch.pk",
         "https://hayastudio.pk",
         "http://goldstitch.pk",
-        "https://www.goldstitch.pk",
+        "http://www.makiyas.com",
+        "https://www.makiyas.com",
+        "http://makiyas.com",
+        "https://makiyas.com", 
         "http://goldstitch.pk",
         "https://goldstitch.pk",
         "https://mobile.goldstitch.pk",
